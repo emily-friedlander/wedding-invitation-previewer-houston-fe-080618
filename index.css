@@ -1,0 +1,78 @@
+html, body{
+  background-color: #000000;
+  color: #ffffff;
+  font-family: helvetica;
+}
+
+h1{
+  text-align: center;
+}
+
+.main-container{
+  display: flex;
+}
+
+.border {
+  display: flex;
+  flex-direction: column;
+  border:1px solid red;
+  width:50%;
+  align-items: center;
+  margin:15px;
+  /*justify-content: center;*/
+}
+
+.invite-type{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 4px solid white;
+}
+
+form{
+  padding-top:20px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    /*box-sizing: border-box;*/
+    border: 3px solid #ffffff;
+    background-color: #000000;
+    color:#ffffff;
+    font-size: 16px;
+}
+
+.form-field, .form-name  {
+  padding: 3px;
+  flex-direction:column;
+}
+
+.flex-2 {
+  display:flex;
+  flex-direction:column;
+  height:600px;
+  font-family: bookman;
+}
+
+#pfirstname{
+  font-size: 40px;
+  padding:70px;
+}
+
+#psecondname{
+  font-size: 30px;
+  padding:70px;
+}
+
+#pdate{
+  font-size: 25px;
+  padding:10px;
+}
+
+#plocation{
+  font-size:20px;
+  padding:10px;
+}
