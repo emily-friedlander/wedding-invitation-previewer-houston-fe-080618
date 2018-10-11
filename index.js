@@ -52,7 +52,7 @@ let initial2;
 firstname.addEventListener('keyup', function(e){
 	pname1.innerHTML = e.target.value;
 	initital1 = e.target.value.charAt(0);
-	pinitials.innerHTML = initial1;
+	pinitials.innerHTML = `${initial1}`;
 });
 
 secondname.addEventListener('keyup', function(e){
